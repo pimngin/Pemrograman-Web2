@@ -20,4 +20,12 @@ class DaftarBukuModel{
         );
         return $kolom_tabel;
     }
+
+    //databse perpustakaan
+    //tabel buku
+    //      id int (11) key auto_inctrement,
+    //      judul varchar (150),
+    //      pengarang varchar (150),
+    //      penerbit varchar (150),
+    //      tahun int (5)
 }

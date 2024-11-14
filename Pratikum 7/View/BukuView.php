@@ -29,7 +29,8 @@
             ?>
         </div>
         <div class="my-3">
-          <button data-bs-toggle="modal" data-bs-target="#tambahModal" class="btn btn-primary"><i class="bi bi-database-add"></i>Tambah</button>
+          <button data-bs-toggle="modal" data-bs-target="#tambahModal" 
+          class="btn btn-primary"><i class="bi bi-person-fill-add"></i>Tambah</button>
         </div>
         <table class="table table-striped">
           <thead>
@@ -51,8 +52,8 @@
                 <td><?php echo $buku->getPenerbit(); ?></td>
                 <td><?php echo $buku->getTahun(); ?></td>
                 <td>
-                  <a href="/index.php/edit?id=<?=$buku->getId()?>" class="btn btn-sm btn-success"><i class="bi-pencil-square"></i>Edit</a>
-                  <button data-bs-toggle="modal" data-bs-target="#hapusModal" data-bs-id="<?= $buku->getId()?>" class="btn btn-sm btn-danger"><i class="bi-trash"></i>Hapus</button>
+                  <a href="/index.php/edit?id=<?=$buku->getId()?>" class="btn btn-sm btn-success"><i class="bi bi-person-fill-up"></i>Edit</a>
+                  <button data-bs-toggle="modal" data-bs-target="#hapusModal" data-bs-id="<?= $buku->getId()?>" class="btn btn-sm btn-danger"><i class="bi bi-trash2-fill"></i>Hapus</button>
                 </td>
               </tr>
             <?php endforeach; ?>

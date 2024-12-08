@@ -1,6 +1,7 @@
 <?= $this->extend('layout');?>
 
-<?= $this->section('main') ?>    
+<?= $this->section('main') ?> 
+
 <div class="container">
     <div class="row bg-primary-subtle">
         <div class="col-6 p-5">

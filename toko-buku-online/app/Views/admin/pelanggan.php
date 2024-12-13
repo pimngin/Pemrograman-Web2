@@ -49,6 +49,14 @@
                     <td>08135569875</td>
                     <td>Jl. Ampera No. 99</td>
                 </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Yusril</td>
+                    <td>Yusrilll</td>
+                    <td>yus@yahoo.com</td>
+                    <td>081355665575</td>
+                    <td>Jl. Sinaga No. 99</td>
+                </tr>
             </tbody>
         </table>
     </div>

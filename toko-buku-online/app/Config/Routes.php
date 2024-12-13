@@ -12,6 +12,12 @@ $routes->get('search', 'Home::search');
 $routes->post('submit','Home::submit');
 
 //admin
-$routes->get('admin/pelanggan', 'AdminController::pelanggan');
+$routes->group('admin', ['filter' => 'group:admin'], function($routes) {
+$routes->get('pelanggan', 'AdminController::pelanggan');
+$routes->get('dashbord', 'AdminController::dashbord');
+$routes->get('transaksi','AdminController::transaksi');
+$routes->get('databuku','AdminController::databuku');
+});
+
 
 service('auth')->routes($routes);

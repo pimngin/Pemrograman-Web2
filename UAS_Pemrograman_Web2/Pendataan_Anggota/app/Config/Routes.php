@@ -25,6 +25,6 @@ $routes->get('/', 'Home::index');
 
 //});
 
-//Belajar menghubungkan halaman
+//Belajar menghubungkan halaman admin
 
 service('auth')->routes($routes);
